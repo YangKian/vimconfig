@@ -1,0 +1,40 @@
+snippet err.nn "if err != nil"
+if err != nil {
+	${1}
+}
+${0}
+endsnippet
+
+snippet fpl "fmt.Println"
+fmt.Println("${1}")
+${0}
+endsnippet
+
+snippet fpf "fmt.Printf"
+fmt.Printf("${1}\n")
+${0}
+endsnippet
+
+snippet lpf "log.Printf"
+log.Printf("${1}\n")
+${0}
+endsnippet
+
+snippet lpl "log.Println"
+log.Println("${1}")
+${0}
+endsnippet
+
+snippet lff "log.Fatalf"
+log.Fatalf("${1}")
+${0}
+endsnippet
+
+
+snippet ts "define a struct"
+type ${1:structName} struct{
+	${2}
+}
+${0}
+endsnippet
+
