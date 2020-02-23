@@ -38,3 +38,29 @@ type ${1:structName} struct{
 ${0}
 endsnippet
 
+snippet in "define a interface"
+type ${1:structName} interface{
+	${2}
+}
+${0}
+endsnippet
+
+snippet f "define a func"
+func ${1:funcName}(${2:param}) ${3:return} {
+	${4:body}
+}
+${0}
+endsnippet
+
+snippet fr "define a func with a receiver"
+func (${1:receiver}) ${2:funcName}(${3:param}) ${4:return} {
+	${5:body}
+}
+${0}
+endsnippet
+snippet testt "testing.t"
+func ${1:funcName}(t *testing.T) {
+	${2}
+}
+${0}
+endsnippet
