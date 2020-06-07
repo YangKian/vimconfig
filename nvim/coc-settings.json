@@ -11,5 +11,9 @@
       "filetypes": ["sh"],
       "ignoredRootPaths": ["~"]
     }
+  },
+  "yaml.trace.server":"verbose",
+  "yaml.schemas": {
+      "kubernetes":"/*.yaml"
   }
 }
